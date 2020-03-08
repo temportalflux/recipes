@@ -1,14 +1,21 @@
 Geshtal Soup
-Nana Adele
-A soup made of chicken broth and dough
-3-4 cups
+source|Nana Adele
+url|
+aliases|
+tags|
+activeTime|
+totalTime|
+yield|3-4 cups
+description|A soup made of chicken broth and dough
 
-3 to 4 cups - Chicken Broth
-1 cup - Flour
-1 Tbsp - Water
-1 Egg
-Salt to taste
+# ingredients
+3 to 4|cup|Chicken Broth
+1|cup|Flour
+1|tbsp|Water
+1||egg
+||Salt to taste
 
+# instructions
 Mix egg, flour, salt, and water together in bowl.
 Mold dough into a ball.
 Ball should be firm, but not sticky.
@@ -19,4 +26,3 @@ Let dough shavings (noodles) dry for 1-2 hours.
 Bring broth to a boil on stove.
 Add noodles.
 Cook for about 5 minutes (no more) and remove from heat.
-Serve.

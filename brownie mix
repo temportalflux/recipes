@@ -1,16 +1,24 @@
 brownie mix
+source|
+url|
+aliases|
+tags|
+activeTime|
+totalTime|
+yield|
+description|
 
-dry
-1 Cup Sugar
-1/2 Cup Flour
-1/3 Cup Cocoa
-1/4 tsp salt
-1/4 tsp Baking Powder
-wet
-2 Eggs
-1/2 Cup Vegetable Oil
-1 teaspoon Vanilla
+# ingredients
+1|cup|Sugar
+1/2|cup|Flour
+1/3|cup|Cocoa
+1/4|tsp|salt
+1/4|tsp|Baking Powder
+2||eggs
+1/2|cup|Vegetable Oil
+1|tsp|Vanilla
 
+# instructions
 Mix dry ingredients
 Once you are ready to bake them add: Eggs, Oil, &Vanilla
 Bake @ 350 degrees for 20-25 minutes

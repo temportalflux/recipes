@@ -1,12 +1,21 @@
 Pancakes
-Double for family meal.
+source|
+url|
+aliases|
+tags|
+activeTime|
+totalTime|
+yield|
+description|Double for family meal.
 
-1 cup flour
-1 tablespoon baking powder
-1 tablespoon sugar
-0.5 teaspoon salt
-1 egg
-2 tablespoon oil
-3/4 c milk
+# ingredients
+1|cup|flour
+1|tbsp|baking powder
+1|tbsp|sugar
+1/2|tsp|salt
+1||egg
+2|tbsp|oil
+3/4|cup|milk
 
+# instructions
 Mix dry ingredients, then mix wet, then mix together.
