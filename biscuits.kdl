@@ -18,11 +18,11 @@ recipe "Biscuits" {
 	}
 	// ¾ cup whole milk¹ (177ml) buttermilk or 2% milk will also work
 	ingredient id=milk {
-		amount 0.75 cup
-		amount 177 ml
 		option Milk kind=Whole
 		option Milk kind=Buttermilk
 		option Milk kind="2%"
+		amount 0.75 cup
+		amount 177 ml
 	}
 	equipment "Box Grater"
 	equipment "Biscuit Cutter"
