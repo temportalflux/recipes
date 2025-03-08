@@ -1,13 +1,15 @@
 recipe "Biscuits" {
+	tag Bread
+	tag Breakfast
 	// 2 cups all-purpose flour (250g)
-	ingredient "Flour (All-Purpose)" {
+	ingredient Flour kind="All-Purpose" id=dry {
 		amount 2 cup
 		amount 250 gram
 	}
-	ingredient "Baking Powder" 1 tbsp
-	ingredient "Sugar (Granulated)" 1 tbsp
-	ingredient Salt 1 tsp
-	ingredient "Butter (Unsalted)" {
+	ingredient "Baking Powder" 1 tbsp id=dry
+	ingredient Sugar kind=Granulated 1 tbsp id=dry
+	ingredient Salt 1 tsp id=dry
+	ingredient Butter kind=Unsalted id=butter {
 		amount 6 tbsp
 		amount 85 gram
 		note """
@@ -15,25 +17,28 @@ recipe "Biscuits" {
 		"""
 	}
 	// ¾ cup whole milk¹ (177ml) buttermilk or 2% milk will also work
-	ingredient {
+	ingredient id=milk {
 		amount 0.75 cup
 		amount 177 ml
-		option "Milk (Whole)"
-		option "Milk (Buttermilk)"
-		option "Milk (2%)"
+		option Milk kind=Whole
+		option Milk kind=Buttermilk
+		option Milk kind="2%"
 	}
 	equipment "Box Grater"
 	equipment "Biscuit Cutter"
 	instructions {
 		step "For best results, chill your butter in the freezer for 10-20 minutes before beginning this recipe. It's ideal that the butter is very cold for light, flaky, buttery biscuits."
 		step "Preheat oven to 425F and line a cookie sheet with nonstick parchment paper. Set aside."
-		// TODO: Show ingredient amounts from above: 2 cups all-purpose flour,1 Tablespoon baking powder,1 Tablespoon granulated sugar,1 teaspoon salt
-		step "Combine flour, baking powder, sugar, and salt in a large bowl and mix well. Set aside."
-		// TODO: Show ingredient amounts from above: 6 Tablespoons unsalted butter
-		step "Remove your butter from the refrigerator and either cut it into your flour mixture using a pastry cutter or (preferred) use a box grater to shred the butter into small pieces and then add to the flour mixture and stir."
+		step "Combine flour, baking powder, sugar, and salt in a large bowl and mix well. Set aside." {
+			ref dry
+		}
+		step "Remove your butter from the refrigerator and either cut it into your flour mixture using a pastry cutter or (preferred) use a box grater to shred the butter into small pieces and then add to the flour mixture and stir." {
+			ref butter
+		}
 		step "Cut the butter or combine the grated butter until the mixture resembles coarse crumbs."
-		// TODO: Show ingredient amounts from above: ¾ cup whole milk
-		step "Add milk, use a wooden spoon or spatula to stir until combined (don't over-work the dough)."
+		step "Add milk, use a wooden spoon or spatula to stir until combined (don't over-work the dough)." {
+			ref milk
+		}
 		step "Transfer your biscuit dough to a well-floured surface and use your hands to gently work the dough together. If the dough is too sticky, add flour until it is manageable."
 		step "Once the dough is cohesive, fold in half over itself and use your hands to gently flatten layers together. Rotate the dough 90 degrees and fold in half again, repeating this step 5-6 times but taking care to not overwork the dough."
 		step "Use your hands (do not use a rolling pin) to flatten the dough to 1\" thick and lightly dust a 2¾\" round biscuit cutter with flour."

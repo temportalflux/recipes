@@ -1,0 +1,49 @@
+recipe "Gorp Bars" {
+	tag "Granola Bar"
+	tag Cookie
+	ingredient "Corn Syrup" kind=Light 1 cup id=caramel
+	ingredient id=caramel {
+		option "Brown Sugar" kind=Light
+		option "Brown Sugar" kind=Dark
+		amount 0.5 cup
+		note "packed"
+	}
+	ingredient Salt 0.25 tsp id=caramel
+	ingredient "Peanut Butter" 1.5 cup id=peanut-butter {
+		note "optionally chunky"
+	}
+	ingredient Vanilla 1 tsp id=vanilla
+	ingredient "Dry Milk" kind="Non-Fat" 1 cup id=inclusions
+	ingredient Raisins 1 cup id=inclusions
+	ingredient Granola 2 cup id=inclusions
+	ingredient "Chocolate Chips" 6 oz id=inclusions
+	ingredient "Optional Inclusions" 1 cup id=inclusions {
+		note "e.g. nuts, dried fruit, marshmallows"
+	}
+	equipment "large or medium saucepan"
+	equipment "13x9 inch pan"
+	equipment "wax paper"
+	instructions {
+		step "Line 13x9\" pan with wax paper"
+		step "In large or medium saucepan, combine sugar, syrup & salt" {
+			ref caramel
+		}
+		step "Bring to boil over high heat (1 1/2 to 2 minutes)"
+		step "Stir in peanut butter" {
+			ref peanut-butter
+		}
+		step "Remove from heat"
+		step "Stir in vanilla" {
+			ref vanilla
+		}
+		step "Stir in remaining ingredients" {
+			ref inclusions
+		}
+		step "Press mixture into 13x9\" pan"
+		step "Refrigerate for 30 minutes"
+		step "Cut into bars"
+		step "Refrigerate or freeze until desired"
+	}
+	source "Diane Crompton"
+	note "Will withstand many substitutions"
+}

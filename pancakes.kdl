@@ -1,0 +1,15 @@
+recipe "Pancakes" {
+	ingredient Flour kind="All-Purpose" 1 cup
+	ingredient "Baking Powder" 1 tbsp
+	ingredient Sugar kind="Granulated" 1 tbsp
+	ingredient Salt 0.5 tsp
+	ingredient Oil 2 tbsp
+	ingredient Milk 0.75 cup
+	instructions {
+		step "Mix dry ingredients"
+		step "Mix wet ingredients"
+		step "Combine mixtures"
+		step "Cook over medium or medium-high heat at desired size"
+	}
+	source "Michael Yost"
+}

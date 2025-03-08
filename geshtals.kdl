@@ -1,0 +1,16 @@
+recipe "Geshtals" {
+	tag Soup
+	ingredient Flour kind="All-Purpose" 1 cup
+	ingredient Water 1 tbsp
+	ingredient Egg 1
+	instructions {
+		step "Mix egg, flour, salt, and water together in bowl."
+		step "Mold dough into a ball. Ball should be firm, but not sticky."
+		step "If sticky, add a little flour and repeat from step 2."
+		step "If not firm, add a little water and repeat from step 2."
+		step "Grate over clean towel, making sure that large clumps are not formed."
+		step "Let dough shavings (noodles) dry for 1-2 hours."
+		step "For soup, bring 3-4 cups of broth to a boil on the stove, add geshtals, and cook for 5 minutes"
+	}
+	source "Nana Adele"
+}
