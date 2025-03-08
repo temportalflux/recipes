@@ -1,0 +1,51 @@
+recipe "Biscuits" {
+	// 2 cups all-purpose flour (250g)
+	ingredient "Flour (All-Purpose)" {
+		amount 2 cup
+		amount 250 gram
+	}
+	ingredient "Baking Powder" 1 tbsp
+	ingredient "Sugar (Granulated)" 1 tbsp
+	ingredient Salt 1 tsp
+	ingredient "Butter (Unsalted)" {
+		amount 6 tbsp
+		amount 85 gram
+		note """
+		Very Cold, unsalted European butter is ideal, but not required 
+		"""
+	}
+	// ¾ cup whole milk¹ (177ml) buttermilk or 2% milk will also work
+	ingredient {
+		amount 0.75 cup
+		amount 177 ml
+		option "Milk (Whole)"
+		option "Milk (Buttermilk)"
+		option "Milk (2%)"
+	}
+	equipment "Box Grater"
+	equipment "Biscuit Cutter"
+	instructions {
+		step "For best results, chill your butter in the freezer for 10-20 minutes before beginning this recipe. It's ideal that the butter is very cold for light, flaky, buttery biscuits."
+		step "Preheat oven to 425F and line a cookie sheet with nonstick parchment paper. Set aside."
+		// TODO: Show ingredient amounts from above: 2 cups all-purpose flour,1 Tablespoon baking powder,1 Tablespoon granulated sugar,1 teaspoon salt
+		step "Combine flour, baking powder, sugar, and salt in a large bowl and mix well. Set aside."
+		// TODO: Show ingredient amounts from above: 6 Tablespoons unsalted butter
+		step "Remove your butter from the refrigerator and either cut it into your flour mixture using a pastry cutter or (preferred) use a box grater to shred the butter into small pieces and then add to the flour mixture and stir."
+		step "Cut the butter or combine the grated butter until the mixture resembles coarse crumbs."
+		// TODO: Show ingredient amounts from above: ¾ cup whole milk
+		step "Add milk, use a wooden spoon or spatula to stir until combined (don't over-work the dough)."
+		step "Transfer your biscuit dough to a well-floured surface and use your hands to gently work the dough together. If the dough is too sticky, add flour until it is manageable."
+		step "Once the dough is cohesive, fold in half over itself and use your hands to gently flatten layers together. Rotate the dough 90 degrees and fold in half again, repeating this step 5-6 times but taking care to not overwork the dough."
+		step "Use your hands (do not use a rolling pin) to flatten the dough to 1\" thick and lightly dust a 2¾\" round biscuit cutter with flour."
+		step "Making close cuts, press the biscuit cutter straight down into the dough and drop the biscuit onto your prepared baking sheet."
+		step "Repeat until you have gotten as many biscuits as possible and place less than ½\" apart on baking sheet."
+		step "Once you have gotten as many biscuits as possible out of the dough, gently re-work the dough to get out another biscuit or two until you have at least 6 biscuits."
+		step "Bake on 425F for 12 minutes or until tops are beginning to just turn lightly golden brown."
+		step "If desired, brush with melted salted butter immediately after removing from oven. Serve warm and enjoy."
+	}
+	/*
+	Nutrition
+	Serving: 1biscuit | Calories: 280kcal | Carbohydrates: 36g | Protein: 5g | Fat: 13g | Saturated Fat: 8g | Cholesterol: 33mg | Sodium: 405mg | Potassium: 287mg | Fiber: 1g | Sugar: 4g | Vitamin A: 399IU | Calcium: 131mg | Iron: 2mg
+	*/
+	source "https://sugarspunrun.com/easy-homemade-biscuits/#recipe"
+}
